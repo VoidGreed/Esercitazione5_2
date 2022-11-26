@@ -1,0 +1,21 @@
+Si realizzi un programma in C++ per la gestione di un elenco di aziende di cui interessano le seguenti
+informazioni:
+ ragione sociale
+ tipologia
+ numero di dipendenti
+ fatturato (in milioni di euro)
+1. Si crei la struttura dati più adatta per la gestione di ogni singola azienda.
+2. Si realizzino dei sottoprogrammi per gestire:
+a. l’input del programma leggendo da tastiera i dati relativi a un elenco di aziende;
+b. la stampa a video di un elenco di aziende.
+3. Si implementino i sottoprogrammi per eseguire i seguenti compiti:
+a. fornire il fatturato medio per una tipologia di azienda passata come parametro di ingresso;
+b. salvare in un nuovo elenco i dati delle aziende aventi fatturato maggiore di una soglia K passata
+come parametro di ingresso;
+c. ordinare per ragione sociale un elenco di aziende.
+4. Si scriva un main che permetta di verificare il funzionamento dell’applicazione ed in particolare:
+a. utilizzando l’allocazione dinamica, si crei un elenco di aziende e si stampi a video il fatturato
+medio per ogni tipologia di azienda presente nell’array;
+b. si inserisca da tastiera un valore K e, tramite l’allocazione dinamica, si crei un nuovo elenco
+contenente i dati delle aziende aventi fatturato maggiore di K. Si visualizzi a video il nuovo
+elenco ordinato per ragione sociale.
